@@ -50,7 +50,7 @@ Milestone 2 primarily involves creating a video in which we provide a detailed w
 
 ## Milestone 3
 
-Milestone contains 2 parts.
+Milestone consists of 2 parts. 3.1=Data and scripts. 3.2=Final presentaion.
 
 ### Milestone 3.1
 
@@ -69,8 +69,7 @@ We look at variables such as:
 
 ### Milestone 3.2
 
-Milestone 3.2 consists of our presentation. We go over the entire project in 
-detail and give further explinations.
+Milestone 3.2 consists of our final presentation, where we thoroughly go over the entire project, providing in-depth explanations, insights, and any additional details necessary to showcase our work.
 
 # Thank You
 ## By Orpheas, Marco & Adam
