@@ -46,7 +46,7 @@ Here is a summary of the methods we will use:
 
 ## Milestone 2
 
-Milestone 2 simply consists of a video of us going over the project.
+Milestone 2 primarily involves creating a video in which we provide a detailed walkthrough of our project, explaining its key components and overall objectives.
 
 ## Milestone 3
 
