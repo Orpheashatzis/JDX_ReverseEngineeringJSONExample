@@ -89,7 +89,9 @@ Our model showed a strong bias toward predicting “on time” flights, likely d
 To improve our model in the future, we plan to:
 
 1.Handle class imbalance more effectively to improve prediction accuracy for delayed flights.
+
 2.Incorporate additional variables, like weather data, by combining multiple datasets.
+
 3.Explore more advanced models, such as XGBoost, to better capture complex patterns in the data.
 
 
