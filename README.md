@@ -73,7 +73,25 @@ Milestone 3.2 consists of our final presentation, where we thoroughly go over th
 
 ### Milestone 4
 
-Milestone 4 consisted of us using a Logistic Regression model as our baseline for the classification task. We evaluated its performance using a confusion matrix and a classification report, which gave us a clear view of the model’s accuracy, precision, recall, and F1-score. These results gave us a solid reference point and helped highlight where there’s room to improve as we move forward. We also created a 2-minute video presentation summarizing our baseline model, key evaluation metrics, and the insights we gained from this initial phase.
+Milestone 4 consisted of us using a Logistic Regression model as our baseline for the classification task. We evaluated its performance using a confusion matrix and a classification report, which gave us a clear view of the model’s accuracy, precision, recall, and F1-score. These results gave us a solid reference point and helped highlight where there’s room to improve as we move forward. We also created a 2-minute video presentation summarizing our baseline model, key evaluation metrics, and the insights we gained from this initial phase. Finally we created a summary report explaining the baseline models we chose and why additionally, how well each model performed and what we learned from them.
+
+### Milestone 5
+
+For this phase of the project, we applied multiple machine learning models, including Random Forest, Ridge Regression, and Lasso Regression, to better understand and solve our classification problem. We built and tested these models using Python and scikit-learn, and evaluated their performance using key metrics like precision, recall, and ROC curves.
+To showcase our results, we designed a scoreboard-style poster highlighting the most important findings and model comparisons in a clear and visual way. We also recorded a 5-minute video presentation where we explained the problem we tackled, the models we used, our results, and ideas for future improvement.
+
+### Conclusion
+
+Conclusion & Future Improvements
+
+Our model showed a strong bias toward predicting “on time” flights, likely due to class imbalance in the dataset. Flight delays are influenced by many uncontrollable factors, making them difficult to predict accurately. However, we did find a clear correlation between delays and peak travel times—such as summer, holidays, and weekends—when flight activity is higher.
+
+To improve our model in the future, we plan to:
+
+1.Handle class imbalance more effectively to improve prediction accuracy for delayed flights.
+2.Incorporate additional variables, like weather data, by combining multiple datasets.
+3.Explore more advanced models, such as XGBoost, to better capture complex patterns in the data.
+
 
 # Thank You
 ## By Orpheas, Marco & Adam
