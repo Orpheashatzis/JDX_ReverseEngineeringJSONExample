@@ -71,6 +71,10 @@ We look at variables such as:
 
 Milestone 3.2 consists of our final presentation, where we thoroughly go over the entire project, providing in-depth explanations, insights, and any additional details necessary to showcase our work.
 
+### Milestone 4
+
+Milestone 4 consisted of us using a Logistic Regression model as our baseline for the classification task. We evaluated its performance using a confusion matrix and a classification report, which gave us a clear view of the model’s accuracy, precision, recall, and F1-score. These results gave us a solid reference point and helped highlight where there’s room to improve as we move forward. We also created a 2-minute video presentation summarizing our baseline model, key evaluation metrics, and the insights we gained from this initial phase.
+
 # Thank You
 ## By Orpheas, Marco & Adam
 
